@@ -12,7 +12,7 @@ Just use `cmd + shift + B` and the compiler will automatically start in watch mo
 
 VS Code ships with the latest stable version of TS as of the _latest update_ to VS Code ... this means it isn't really always the latest stable version.
 
-The included `package.json` will install TS locally in your project. To use this latest version first `npm install`. Then select a `.ts` file and press `Cmd+Shift+P` (`Ctrl+Shift+P in Windows). Search for TypeScript and select the option "Select TypeScript version..." and choose "Use Workspace Version".
+The included `package.json` will install TS locally in your project. To use this latest version first `npm install`. Then select a `.ts` file and press `Cmd+Shift+P` (`Ctrl+Shift+P` in Windows). Search for TypeScript and select the option "Select TypeScript version..." and choose "Use Workspace Version".
 
 #### tsconfig
 
