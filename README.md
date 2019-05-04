@@ -1,3 +1,6 @@
+### Fork Notes
+This will be made compatible with Expo (see this comment: https://github.com/bramus/react-native-maps-directions/issues/74#issuecomment-475445872 and converted to TypeScript; onces this is complete I will probably rename it something like `rnm-directions-expo-ts`. This is the goal of the fork. *No work has been done on this so far*.
+
 # `react-native-maps-directions`
 
 [![npm version](https://img.shields.io/npm/v/react-native-maps-directions.svg?style=flat)](https://www.npmjs.com/package/react-native-maps-directions)
