@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import MapView from "expo";
 import isEqual from "lodash.isequal";
 
@@ -246,41 +245,5 @@ class MapViewDirections extends Component {
     return <MapView.Polyline coordinates={this.state.coordinates} {...props} />;
   }
 }
-
-MapViewDirections.propTypes = {
-  origin: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.shape({
-      latitude: PropTypes.number.isRequired,
-      longitude: PropTypes.number.isRequired
-    })
-  ]),
-  waypoints: PropTypes.arrayOf(
-    PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.shape({
-        latitude: PropTypes.number.isRequired,
-        longitude: PropTypes.number.isRequired
-      })
-    ])
-  ),
-  destination: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.shape({
-      latitude: PropTypes.number.isRequired,
-      longitude: PropTypes.number.isRequired
-    })
-  ]),
-  apikey: PropTypes.string.isRequired,
-  onStart: PropTypes.func,
-  onReady: PropTypes.func,
-  onError: PropTypes.func,
-  mode: PropTypes.oneOf(["DRIVING", "BICYCLING", "TRANSIT", "WALKING"]),
-  language: PropTypes.string,
-  resetOnChange: PropTypes.bool,
-  optimizeWaypoints: PropTypes.bool,
-  directionsServiceBaseUrl: PropTypes.string,
-  region: PropTypes.string
-};
 
 export default MapViewDirections;
