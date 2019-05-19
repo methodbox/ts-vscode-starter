@@ -3,10 +3,8 @@
   "version": "1.0.5",
   "description": "Quick start TypeScript setup for VS Code.",
   "main": "app.ts",
-  "dependencies": {
-    "typescript": "^3.4.5"
-  },
   "devDependencies": {
+    "typescript": "^3.4.5",
     "prettier": "^1.17.0",
     "prettier-tslint": "^0.4.2",
     "tslint": "^5.16.0",
